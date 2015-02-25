@@ -11,7 +11,7 @@ while True:
                 print tmp_string
                 tmp_string = ""
         else:
-                pattern = r'"([a-z]|[A-Z]|\\r\\n|-| |@|\.\.)"'
+                pattern = r'"([a-z]|[A-Z]|\\r\\n|-| |@|\.)"'
                 m = re.search(pattern,output)
                 if (m is None):
                         continue

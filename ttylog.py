@@ -7,7 +7,7 @@ tmp_string = ""
 
 while True:
         output = pipe.stderr.readline()
-        if (output.find("\\n") >= 0):
+        if (output.find("\\r\\n") >= 0):
                 print tmp_string
                 tmp_string = ""
         else:

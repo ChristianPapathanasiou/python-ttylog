@@ -16,5 +16,5 @@ while True:
                 if (m is None):
                         continue
                 else:
-                        tmp_string = tmp_string + m.group()[:-1][-1:]
+                        tmp_string = tmp_string + m.group()[-1:][:-1]
 
